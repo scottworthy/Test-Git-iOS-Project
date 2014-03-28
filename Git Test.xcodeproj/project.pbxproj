@@ -21,6 +21,7 @@
 		923A3C3718E61AF2004E4DDB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 923A3C1918E61AF2004E4DDB /* UIKit.framework */; };
 		923A3C3F18E61AF2004E4DDB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 923A3C3D18E61AF2004E4DDB /* InfoPlist.strings */; };
 		923A3C4118E61AF2004E4DDB /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 923A3C4018E61AF2004E4DDB /* Git_TestTests.m */; };
+		923A3C4C18E6205E004E4DDB /* SFTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 923A3C4B18E6205E004E4DDB /* SFTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		923A3C3C18E61AF2004E4DDB /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		923A3C3E18E61AF2004E4DDB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		923A3C4018E61AF2004E4DDB /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		923A3C4A18E6205E004E4DDB /* SFTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFTest.h; sourceTree = "<group>"; };
+		923A3C4B18E6205E004E4DDB /* SFTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		923A3C0918E61AF2004E4DDB = {
 			isa = PBXGroup;
 			children = (
+				923A3C4A18E6205E004E4DDB /* SFTest.h */,
+				923A3C4B18E6205E004E4DDB /* SFTest.m */,
 				923A3C1B18E61AF2004E4DDB /* Git Test */,
 				923A3C3A18E61AF2004E4DDB /* Git TestTests */,
 				923A3C1418E61AF2004E4DDB /* Frameworks */,
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				923A3C4C18E6205E004E4DDB /* SFTest.m in Sources */,
 				923A3C2218E61AF2004E4DDB /* main.m in Sources */,
 				923A3C2C18E61AF2004E4DDB /* SFViewController.m in Sources */,
 				923A3C2618E61AF2004E4DDB /* SFAppDelegate.m in Sources */,
